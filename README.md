@@ -1,24 +1,35 @@
-# README
+# Pokemon CRUD app built with Tuby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Clone the project: open a terminal and type in
+```
+$ git clone git@github.com:Ggs91/pokemon.git
+```
+2. Change directory to `pokemon`:
+```
+$ cd pokemon
+```
+3. Download dependencies:
 
-Things you may want to cover:
+```
+$ bundle install
+```
 
-* Ruby version
+4. Setup database:
+```
+$ rails db:create
+$ rails db:migrate
+$ rails db:seed
+```
 
-* System dependencies
+5. Start the server:
+```
+$ rails s
+```
 
-* Configuration
+6. Go to `http://localhost:3000`
 
-* Database creation
+7. To run the specs type in
+```
+$ rspec
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
