@@ -1,4 +1,4 @@
-# Pokemon CRUD app built with Tuby on Rails
+# Pokemon CRUD app built with Ruby on Rails
 
 1. Clone the project: open a terminal and type in
 ```
